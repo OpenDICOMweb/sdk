@@ -2,4 +2,4 @@
 // Use of this source code is governed by the open source license
 // that can be found in the LICENSE file.
 // Author: Jim Philbin <jfphilbin@gmail.edu> -
-// See the AUTHORS file for other contributors.
+// See the AUTHORS file in /odw/sdk for other contributors.

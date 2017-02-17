@@ -1,4 +1,19 @@
 
+.git/
+common/
+convert/
+core/
+deid/
+dictionary/
+generate/
+html/
+io/
+json/
+private_groups/
+sdk/
+setup/
+test_tools/
+
 ## Dart Language Stuff
 # ==========================
 # See https://www.dartlang.org/tools/private-files.html
