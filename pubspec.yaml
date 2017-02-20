@@ -1,0 +1,55 @@
+name: sdk
+description: The Open DICOMweb (ODW) Software Development Kit (SDK).
+version: 0.5.1
+authors:
+  # original creator
+  - Jim Philbin <jfphilbin@gmail.com>
+  # subsequent contributors
+#
+homepage: https://github.com/OpenDICOMweb/sdk.git
+
+environment:
+  sdk: ^1.22.0
+
+dependencies:
+  common:
+ #   git:
+ #     url: https://github.com/OpenDICOMweb/common.git
+ #     ref: develop
+ #     version: ^0.5.2
+    path: C:/odw/sdk/common
+    version: ^0.5.2
+  dictionary:
+ #   git:
+ #     url: https://github.com/OpenDICOMweb/dictionary.git
+ #     ref: develop
+ #     version: ^0.5.1
+    path: C:/odw/sdk/dictionary
+    version: ^0.5.1
+  core:
+  #  git:
+  #    url: https://github.com/OpenDICOMweb/core.git
+  #    ref: develop
+  #    version: ^0.5.1
+    path: C:/odw/sdk/core
+    version: ^0.5.1
+  convertX:
+  #  git:
+  #    url: https://github.com/OpenDICOMweb/convert.git
+  #    ref: develop
+  #    version: ^0.5.1
+    path: C:/odw/sdk/convert
+    version: ^0.5.1
+  io:
+  #  git:
+  #    url: https://github.com/OpenDICOMweb/io.git
+  #    ref: develop
+  #    version: ^0.5.1
+    path: C:/odw/sdk/io
+    version: ^0.5.1
+
+dev_dependencies:
+  benchmark_harness: ^1.0.4
+  grinder: ^0.8.0
+  test: ^0.12.0
+

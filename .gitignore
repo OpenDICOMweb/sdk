@@ -1,4 +1,4 @@
-
+## ignore all of the package directories
 .git/
 common/
 convert/
